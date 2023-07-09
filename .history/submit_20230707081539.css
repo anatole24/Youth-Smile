@@ -1,0 +1,135 @@
+:root {
+  --black-color: #000;
+  --gray1: rgba(0, 0, 0, 0.5);
+}
+input {
+  outline: none;
+  border-style: hidden;
+}
+.top-img {
+  width: 1510px;
+  height: 900px;
+  flex-shrink: 0;
+  background: url("./images/c-BrightPhone.avif") no-repeat bottom right/ cover;
+}
+.top-title {
+  color: #d6932f;
+  font-size: 128px;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: -535px;
+  margin-left: 460px;
+}
+
+.center-back {
+  width: 1510px;
+  height: 2467px;
+  margin-top: 240px;
+  background: #f0e5d5;
+}
+.center-answer {
+  width: 1132px;
+  height: 90px;
+  flex-shrink: 0;
+  background: #fff;
+  margin-top: -2400px;
+  margin-left: 185px;
+  padding-top: 18px;
+}
+.center-title {
+  color: #28110a;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 152px;
+}
+
+.info-back {
+  width: 1132px;
+  height: 395px;
+  flex-shrink: 0;
+}
+
+.visit-us {
+  width: 1132px;
+  height: 105px;
+  flex-shrink: 0;
+  background: #c8baa5;
+  margin-top: 130px;
+  margin-left: 185px;
+  padding-top: 15px;
+}
+.visit-title {
+  color: #3e2922;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 405px;
+}
+.visit-add {
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+}
+.add-logo {
+  width: 175px;
+  height: 184.052px;
+  flex-shrink: 0;
+  background: url(./images/address.png) no-repeat;
+  object-fit: cover;
+  margin-right: 50px;
+}
+.add-content {
+  color: #3e2922;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 80px;
+}
+.visit-phone {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 186px;
+  margin-top: 55px;
+}
+.phone-logo {
+  width: 175px;
+  height: 184.052px;
+  flex-shrink: 0;
+  background: url(./images/phone.png) no-repeat;
+  object-fit: cover;
+  margin-right: 50px;
+}
+.phone-content {
+  color: #3e2922;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 80px;
+}
+.visit-email {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 186px;
+  margin-top: 55px;
+}
+.email-logo {
+  width: 175px;
+  height: 184.052px;
+  flex-shrink: 0;
+  background: url(./images/email.png) no-repeat;
+  object-fit: cover;
+  margin-right: 50px;
+}
+.email-content {
+  color: #3e2922;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 80px;
+}

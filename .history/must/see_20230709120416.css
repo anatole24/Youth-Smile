@@ -1,0 +1,23 @@
+.see-back {
+  width: 1510px;
+  height: 845px;
+  flex-shrink: 0;
+  background: linear-gradient(
+      0deg,
+      rgba(234, 232, 218, 0.01) 0%,
+      rgba(234, 232, 218, 0.01) 100%
+    ),
+    url("../images/a-back.png"), lightgray 50% / cover no-repeat;
+}
+.see-left {
+  width: 700px;
+  height: 646px;
+  margin-top: 1px;
+  margin-left: 1px;
+  flex-shrink: 0;
+}
+.see-right {
+  width: 700px;
+  height: 646px;
+  margin-top: 800px;
+}

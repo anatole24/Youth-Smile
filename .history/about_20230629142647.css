@@ -1,0 +1,31 @@
+:root {
+  --primary-color: #77472d;
+  --second-color: #f0e5d5;
+}
+.top-img {
+  width: 1510px;
+  height: 845px;
+  flex-shrink: 0;
+  background: linear-gradient(
+      0deg,
+      rgba(234, 232, 218, 0.01) 0%,
+      rgba(234, 232, 218, 0.01) 100%
+    ),
+    url("./images/a-back.png"), lightgray 50% / cover no-repeat;
+}
+.top-left {
+  width: 720px;
+  height: 646px;
+  margin-top: -743px;
+  flex-shrink: 0;
+  background: #f0e5d5;
+}
+.top-right {
+  width: 718px;
+  height: 646px;
+  margin-top: -646px;
+  margin-left: 720px;
+  flex-shrink: 0;
+  background: url("./images/fpt-campus.jpg") no-repeat center right/ cover;
+  object-position: bottom;
+}

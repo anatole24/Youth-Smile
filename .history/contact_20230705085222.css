@@ -1,0 +1,21 @@
+.top-img {
+  width: 1540px;
+  height: 863px;
+  background: url("./images/c-phone.avif") no-repeat;
+  object-fit: cover;
+}
+.top-title {
+  color: #f0e5d5;
+  font-size: 128px;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: -535px;
+  margin-left: 460px;
+}
+
+.center-back {
+  width: 1510px;
+  height: 2467px;
+  margin-top: 240px;
+  background: #f0e5d5;
+}

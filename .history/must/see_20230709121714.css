@@ -1,0 +1,34 @@
+.see-back {
+  width: 1510px;
+  height: 845px;
+  flex-shrink: 0;
+  background: linear-gradient(
+      0deg,
+      rgba(234, 232, 218, 0.01) 0%,
+      rgba(234, 232, 218, 0.01) 100%
+    ),
+    url("../images/a-back.png"), lightgray 50% / cover no-repeat;
+}
+.left-img {
+  max-width: 700px;
+  height: 845px;
+  flex-shrink: 0;
+  object-fit: cover;
+  object-position: center;
+}
+.see-right {
+  width: 700px;
+  height: 646px;
+  margin-top: -750px;
+  margin-left: 750px;
+  background-color: bisque;
+}
+.right-title {
+  color: rgb(202, 145, 71);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+  margin-left: 85px;
+}

@@ -1,0 +1,58 @@
+.top-img {
+  width: 1510px;
+  height: 900px;
+  flex-shrink: 0;
+  background: url("./images/c-BrightPhone.avif") no-repeat bottom right/ cover;
+}
+.top-title {
+  color: #d6932f;
+  font-size: 128px;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: -535px;
+  margin-left: 460px;
+}
+
+.center-back {
+  width: 1510px;
+  height: 2467px;
+  margin-top: 240px;
+  background: #f0e5d5;
+}
+.center-answer {
+  width: 1132px;
+  height: 105px;
+  flex-shrink: 0;
+  background: #c8baa5;
+  margin-top: -2400px;
+}
+.center-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 58px;
+}
+.center-name {
+  width: 540px;
+  height: 143px;
+  flex-shrink: 0;
+  background: #fff;
+  margin-right: 52px;
+}
+.center-phone {
+  width: 540px;
+  height: 143px;
+  flex-shrink: 0;
+  background: #fff;
+}
+.center-address {
+  width: 1132px;
+  height: 143px;
+  flex-shrink: 0;
+  background: #fff;
+}
+.center-mes {
+  width: 1132px;
+  height: 549px;
+  flex-shrink: 0;
+  background: #fff;
+}

@@ -1,0 +1,131 @@
+/* Auction-*/
+.auction-list {
+  --columns: 1;
+}
+.heading {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 50px auto;
+  padding: 0 15px;
+}
+
+.auction-list {
+  --columns: 4;
+  display: grid;
+  grid-template-columns: repeat(var(--columns), 1fr);
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  gap: 50px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.auction-item {
+  overflow: hidden;
+  background-color: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0px 12px 64px rgba(0, 0, 0, 0.06);
+}
+.auction-image {
+  height: 200px;
+  position: relative;
+}
+.auction-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 14px 14px 0px 0px;
+  object-fit: cover;
+}
+.auction-label {
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #f4f5f6;
+  background-color: #3b71fe;
+  border-radius: 30px;
+  padding: 4px 18px;
+  transform: translateY(50%);
+}
+.auction-content {
+  padding: 11px 20px;
+}
+.auction-time {
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 11px;
+  color: #777e91;
+  margin-bottom: 8px;
+  display: block;
+}
+.auction-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #23262f;
+  margin-bottom: 9px;
+}
+.auction-price {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 175%;
+  color: #4f4f4f;
+  gap: 4px;
+}
+.auction-step {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 175%;
+  color: #4f4f4f;
+  gap: 4px;
+}
+.step-img {
+  width: 10px;
+  height: 10px;
+}
+.auction-overlay {
+  background: linear-gradient(
+    24.19deg,
+    rgba(4, 4, 4, 0.52) 0.23%,
+    rgba(4, 4, 4, 0) 55.52%
+  );
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 14px 14px 0px 0px;
+}
+
+@media screen and (max-width: 1023.98px) {
+  .auction-item {
+    width: calc(50% - 30px);
+    margin-bottom: 30px;
+  }
+  .auction-list {
+    --columns: 2;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .auction-item {
+    width: 100%;
+  }
+  .auction-list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: row;
+    gap: 16px;
+  }
+}

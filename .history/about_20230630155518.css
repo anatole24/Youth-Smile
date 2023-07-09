@@ -1,0 +1,129 @@
+:root {
+  --primary-color: #77472d;
+  --second-color: #f0e5d5;
+}
+.top-img {
+  width: 1510px;
+  height: 845px;
+  flex-shrink: 0;
+  background: linear-gradient(
+      0deg,
+      rgba(234, 232, 218, 0.01) 0%,
+      rgba(234, 232, 218, 0.01) 100%
+    ),
+    url("./images/a-back.png"), lightgray 50% / cover no-repeat;
+}
+.top-left {
+  width: 754px;
+  height: 646px;
+  margin-top: -743px;
+  flex-shrink: 0;
+  background: #f0e5d5;
+  padding-left: 112px;
+  position: relative;
+}
+.left-title {
+  position: absolute;
+  top: 93px;
+  width: 200px;
+  height: 79.946px;
+  color: #28110a;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.left-content {
+  display: flex;
+  position: absolute;
+  top: 250px;
+  width: 509px;
+  height: 178px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--primary-color);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.top-right {
+  width: 754px;
+  height: 646px;
+  margin-top: -646px;
+  margin-left: 754px;
+  flex-shrink: 0;
+  background: url("./images/fpt-campus.jpg") no-repeat center right/ cover;
+  object-position: bottom;
+}
+.top-image {
+  width: 1510px;
+  height: 1036px;
+  margin-top: 97px;
+  flex-shrink: 0;
+  background: url("./images/a-study.avif") no-repeat center right/ cover;
+}
+.left-button {
+  position: absolute;
+  margin-top: 530px;
+  margin-left: 10px;
+  border-radius: 26px;
+  padding: 7px 50px;
+  background: #d69536;
+  backdrop-filter: blur(2px);
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.center-img {
+  width: 1510px;
+  height: 859px;
+  flex-shrink: 0;
+  background: linear-gradient(
+      0deg,
+      rgba(40, 17, 10, 0.388) 0%,
+      rgba(40, 17, 10, 0.3) 100%
+    ),
+    url("./images/a-back.png"), lightgray 50% / cover no-repeat;
+}
+.center-left {
+  width: 456px;
+  height: 859px;
+  margin-top: -859px;
+  flex-shrink: 0;
+  background: url("./images/a-learn.avif"), lightgray 50% / cover no-repeat;
+}
+.center-right {
+  position: relative;
+}
+.right-title {
+  display: flex;
+  width: 796px;
+  height: 134px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #f0e5d5;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-top: -700px;
+  margin-left: 576px;
+}
+.right-content {
+  display: flex;
+  width: 657px;
+  height: 221px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #f0e5d5;
+  font-size: 24px;
+  font-family: Sree Krushnadevaraya;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}

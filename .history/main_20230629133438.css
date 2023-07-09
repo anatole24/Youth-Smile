@@ -1,0 +1,579 @@
+body {
+  overflow-x: hidden;
+}
+.header {
+  background-color: white;
+  padding: 16px 0;
+  box-shadow: 0px 6px 30px 0px rgba(15, 15, 15, 0.06);
+  margin-bottom: 70px;
+}
+.header_container {
+  margin: 0 auto;
+}
+.header_list {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.header_item {
+  padding: 14px 22px;
+  border-radius: 10px;
+  background-color: #f4f5f9;
+  display: block;
+  transition: background-color 0.2s linear, color 0.25s ease-in;
+}
+.header_item:hover {
+  background-color: #c08d18bb;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+  outline: none;
+  font: inherit;
+  background-color: transparent;
+  border: none;
+}
+
+.top {
+  position: relative;
+}
+.name {
+  width: 100%;
+  height: 15rem;
+  text-align: center;
+  border-radius: 5rem;
+  background-image: linear-gradient(to right, #ffdeb1d3, #c08d18bb);
+  box-shadow: 8px 20px 20px 5px #ffd7b1;
+  position: absolute;
+  z-index: 1;
+}
+.text {
+  width: 100%;
+  font-family: "Lobster", cursive;
+  letter-spacing: 0.2rem;
+  font-size: 6.5rem;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 30rem;
+  background-image: linear-gradient(to right, #042c5c, #cdddff);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  position: absolute;
+  z-index: 2;
+}
+.slogan {
+  font-family: "Marck Script", cursive;
+  width: 93rem;
+  font-size: 2rem;
+  display: inline-block;
+  margin-left: 37rem;
+  margin-top: 9rem;
+  background-image: linear-gradient(to right, #0a0a0a, #d0cece);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  position: absolute;
+  z-index: 2;
+}
+.logo {
+  width: 15rem;
+  height: 15rem;
+  margin-bottom: 5rem;
+  text-align: right;
+  background: url("./images/logo_fog.jpg") no-repeat center right/ cover;
+  margin-left: 5rem;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+}
+.icon_tree {
+  width: 10rem;
+  height: 20rem;
+  color: white;
+  font-size: 4rem;
+  margin-top: 3rem;
+  margin-left: 72rem;
+  position: absolute;
+  z-index: 3;
+}
+.school {
+  width: 12rem;
+  height: 4rem;
+  text-align: right;
+  background: url("https://i1.wp.com/hanoi.fpt.edu.vn/wp-content/uploads/2021/12/2021-FPTU-Long.jpg?fit=1542%2C591&ssl=1")
+    no-repeat top right/ cover;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-top: 11rem;
+  margin-left: 79rem;
+  position: absolute;
+  z-index: 3;
+}
+.back {
+  width: 100%;
+  height: 60rem;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+h2 {
+  font-family: "Geologica", sans-serif;
+  margin-top: -40rem;
+  margin-left: 3rem;
+  font-size: 3rem;
+  color: rgb(107, 43, 43);
+}
+ul {
+  font-family: "Roboto Condensed", sans-serif;
+  width: 52rem;
+  font-size: 1.3rem;
+  margin-top: -1.5rem;
+  margin-left: 2rem;
+  line-height: 1.7rem;
+  text-decoration: none;
+  list-style-type: none;
+}
+li:first-child::first-letter {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+li:nth-child(2) {
+  margin-left: 1.5rem;
+}
+li:nth-child(3) {
+  margin-left: 1.5rem;
+}
+li:nth-child(4) {
+  margin-left: 1.5rem;
+}
+.image_sad {
+  width: 35rem;
+  height: 22rem;
+  display: block;
+  object-fit: cover;
+  object-position: right;
+  margin-left: 58rem;
+  margin-top: -25rem;
+  overflow: hidden;
+}
+
+.mes {
+  width: 40rem;
+  height: 25rem;
+  text-align: right;
+  background: url("https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/352378906_770427301481959_8380713945671912572_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=TUXPmd3eQyMAX_ADk_1&_nc_ht=scontent.fsgn2-3.fna&oh=00_AfCrTQA-4XsJPqDRbRbbeCkqe7livbIDUOZjrI0WRbg4Dg&oe=6484520E")
+    no-repeat top right/ cover;
+  border-radius: 1rem;
+  margin-top: 6rem;
+  margin-left: 50rem;
+}
+.image0 {
+  width: 40rem;
+  height: 25rem;
+  text-align: right;
+  background: url("https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9vciUyMGNoaWxkfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60")
+    no-repeat top right/ cover;
+  border-radius: 1rem;
+  margin-top: -13rem;
+  margin-left: 4rem;
+}
+h3 {
+  font-family: "Geologica", sans-serif;
+  margin-top: -29rem;
+  margin-left: 50rem;
+  font-size: 3rem;
+  color: rgb(107, 43, 43);
+}
+.content {
+  font-family: "Roboto Condensed", sans-serif;
+  margin-left: 47rem;
+  margin-top: -2rem;
+  width: 45rem;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+}
+.image2 {
+  display: none;
+  width: 40rem;
+  height: 25rem;
+  text-align: right;
+  background: url("https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9vciUyMGNoaWxkfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60")
+    no-repeat top right/ cover;
+  border-radius: 1rem;
+  margin-top: -13rem;
+  margin-left: 4rem;
+}
+.mes0 {
+  width: 40rem;
+  height: 25rem;
+  text-align: right;
+  background: url("https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/352205223_1432710924237884_6519822359782310798_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=2zxjmt1EN1cAX-uCXgf&_nc_ht=scontent.fsgn2-5.fna&oh=00_AfDZPjTnDgPjrhJuXI1eWSfpSTnwx2Tb03sYpSKIi7jRMA&oe=6483A51C")
+    no-repeat left/ cover;
+  border-radius: 1rem;
+  margin-left: 1rem;
+}
+.image1 {
+  width: 40rem;
+  height: 22rem;
+  text-align: right;
+  background: url("https://images.unsplash.com/photo-1576381394626-53b3d2d48145?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBvb3IlMjBjaGlsZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60")
+    no-repeat center right/ cover;
+  border-radius: 1rem;
+  margin-top: -15rem;
+  margin-left: 51rem;
+}
+h4 {
+  font-family: "Geologica", sans-serif;
+  margin-top: -24rem;
+  margin-left: 3rem;
+  font-size: 3rem;
+  color: rgb(107, 43, 43);
+}
+.content0 {
+  font-family: "Roboto Condensed", sans-serif;
+  margin-left: 3rem;
+  margin-top: -2rem;
+  width: 45rem;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+}
+.image3 {
+  display: none;
+  width: 40rem;
+  height: 22rem;
+  text-align: right;
+  background: url("https://images.unsplash.com/photo-1576381394626-53b3d2d48145?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBvb3IlMjBjaGlsZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60")
+    no-repeat center right/ cover;
+  border-radius: 1rem;
+  margin-top: -15rem;
+  margin-left: 51rem;
+}
+
+.floor {
+  width: 100%;
+  height: 90rem;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(54, 55, 55, 0.404),
+      rgba(84, 82, 82, 0.345)
+    ),
+    url("./images/floor.jpg");
+  background-size: cover;
+  margin-top: 5rem;
+}
+.time {
+  font-family: "Merienda", cursive;
+  margin-top: -88rem;
+  margin-left: 21.5rem;
+  font-size: 3rem;
+  color: rgb(237, 255, 255);
+}
+.timeline {
+  width: 65rem;
+  height: 35rem;
+  text-align: right;
+  background: url(./images/time_line.jpg) no-repeat center right/ cover;
+  margin-top: 2rem;
+  margin-left: 14.5rem;
+}
+
+.title2 {
+  font-family: "Merienda", cursive;
+  margin-top: 5rem;
+  margin-left: 21.5rem;
+  font-size: 3rem;
+  color: rgb(237, 255, 255);
+}
+.title3 {
+  font-family: "Merienda", cursive;
+  margin-top: 7rem;
+  margin-left: 18rem;
+  font-size: 2.5rem;
+  color: rgb(200, 255, 255);
+}
+.title4 {
+  font-family: "Patrick Hand SC", cursive;
+  margin-top: 1rem;
+  margin-left: 20.5rem;
+  font-size: 2rem;
+  color: rgb(200, 255, 255);
+}
+.content1 {
+  font-family: "Patrick Hand", cursive;
+  width: 65rem;
+  margin-top: 5rem;
+  margin-left: 15rem;
+  font-size: 1.5rem;
+  color: rgb(200, 255, 255);
+}
+
+.item {
+  width: 100%;
+  height: 50rem;
+  text-align: right;
+  background: url("./images/item.jpg") no-repeat center right/ cover;
+  margin-top: 10rem;
+  margin-left: 4.5rem;
+}
+
+@media screen and (max-width: 767.98px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .name {
+    height: 8rem;
+  }
+  .text {
+    margin-left: 6rem;
+    margin-top: 1.5rem;
+    font-size: 2rem;
+  }
+  .logo {
+    width: 5rem;
+    height: 5rem;
+    margin: 0.5rem 0.7rem;
+  }
+  .slogan {
+    margin-left: 5.4rem;
+    font-size: 0.85rem;
+    margin-top: 4.2rem;
+  }
+  .icon_tree {
+    width: 2rem;
+    height: 2rem;
+    font-size: 2rem;
+    margin-left: 20rem;
+    margin-top: 1.3rem;
+  }
+  .school {
+    width: 3.9rem;
+    height: 1.5rem;
+    margin-left: 17rem;
+    margin-top: 6.5rem;
+    border-radius: 5px;
+  }
+  h2 {
+    font-size: 1.2rem;
+    margin-top: -48.4rem;
+    margin-left: 1rem;
+  }
+  ul {
+    width: 22rem;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    margin-top: 0rem;
+    margin-left: -1.5rem;
+  }
+  li:first-child::first-letter {
+    font-size: 1.1rem;
+  }
+  .image_sad {
+    width: 100%;
+    height: 15rem;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    border-radius: 1rem;
+  }
+  .mes {
+    width: 100%;
+    height: 15rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+    margin-top: -10rem;
+    margin-left: 6rem;
+  }
+  .content {
+    width: 22rem;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    margin-left: 1rem;
+    margin-top: 0rem;
+  }
+  .image0 {
+    display: none;
+  }
+  .image2 {
+    display: block;
+    width: 100%;
+    height: 15rem;
+    margin-top: 1rem;
+    margin-left: 0rem;
+  }
+  .mes0 {
+    width: 100%;
+    height: 15rem;
+    margin-top: 1rem;
+    margin-left: -1rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+    margin-top: -10rem;
+    margin-left: 1rem;
+  }
+  .content0 {
+    width: 22rem;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    margin-left: 1rem;
+    margin-top: 0rem;
+  }
+  .image1 {
+    display: none;
+  }
+  .image3 {
+    display: block;
+    width: 100%;
+    height: 15rem;
+    margin-top: 1rem;
+    margin-left: 0rem;
+  }
+
+  .floor {
+    width: 100%;
+    height: 50rem;
+    margin-top: 3rem;
+  }
+  .time {
+    font-size: 1.2rem;
+    margin-top: -47rem;
+    margin-left: 3rem;
+  }
+  .timeline {
+    width: 100%;
+    height: 12rem;
+    margin-left: 0rem;
+  }
+  .title2 {
+    font-size: 1.2rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
+  }
+  .title3 {
+    font-size: 0.95rem;
+    margin-top: 3rem;
+    margin-left: 0.7rem;
+  }
+  .title4 {
+    font-size: 0.95rem;
+    margin-top: 1rem;
+    margin-left: 0.9rem;
+  }
+  .content1 {
+    width: 95%;
+    font-size: 0.75rem;
+    margin-top: 3.5rem;
+    margin-left: 0.9rem;
+  }
+  .item {
+    width: 100%;
+    height: 15rem;
+    margin-left: 0rem;
+    background: url("./images/item.jpg") no-repeat center/ cover;
+  }
+}
+
+/* Footer */
+.footer {
+  padding: 70px 0;
+}
+.footer_container {
+  max-width: 1130px;
+}
+.footer_columns {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.footer_heading {
+  font-size: 24px;
+  line-height: 1.5;
+  color: #353945;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.footer_links {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.footer-link {
+  display: block;
+  line-height: 1.5;
+  font-size: 16px;
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+.footer_desc {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #353945;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.footer_top {
+  padding-bottom: 70px;
+  border-bottom: 1px solid #e6e8ec;
+}
+.footer_bottom {
+  margin-top: 40px;
+  display: flex; /*facb*/
+  justify-content: space-between;
+  align-items: center;
+  color: #b1b5c1;
+  gap: 20px;
+}
+.footer_sn_list {
+  display: flex; /*facenter*/
+  align-items: center;
+  gap: 14px;
+}
+
+/* Subscribe */
+.subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 100rem;
+  border: 2px solid #e6e8ec;
+  padding: 8px;
+}
+.subscribe_email {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #141416;
+  font-weight: 500;
+  padding-inline: 18px;
+  width: 100%;
+}
+.subscribe_email::-webkit-input-placeholder {
+  color: var(--gray1); /*input-placeholder*/
+}
+.subscribe_email::-moz-input-placeholder {
+  color: var(--gray1);
+}
+.subscribe_button {
+  width: 33px; /*square-radius*/
+  height: 33px;
+  border-radius: 100rem;
+  background-color: var(--primary-color);
+  display: flex; /*flex-center*/
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0; /*Không lấn button*/
+}

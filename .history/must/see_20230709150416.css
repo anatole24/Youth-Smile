@@ -1,0 +1,57 @@
+.see-back {
+  width: 1510px;
+  height: 845px;
+  flex-shrink: 0;
+  background: linear-gradient(
+      0deg,
+      rgba(234, 232, 218, 0.01) 0%,
+      rgba(234, 232, 218, 0.01) 100%
+    ),
+    url("../images/a-back.png"), lightgray 50% / cover no-repeat;
+}
+.left-img {
+  max-width: 700px;
+  height: 845px;
+  flex-shrink: 0;
+  object-fit: cover;
+  object-position: center;
+}
+.see-right {
+  width: 700px;
+  height: 646px;
+  margin-top: -750px;
+  margin-left: 750px;
+  background-color: rgba(255, 228, 196, 0.427);
+  padding-top: 20px;
+}
+.right-title {
+  color: rgb(202, 145, 71);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 85px;
+}
+.right-cover,
+.right-price,
+.right-step {
+  color: #28110a;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.right-content {
+  display: flex;
+  width: 600px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #28110a;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-left: 50px;
+}

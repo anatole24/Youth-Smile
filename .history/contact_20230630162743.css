@@ -1,0 +1,7 @@
+.top-img {
+  width: 1510px;
+  height: 863px;
+  flex-shrink: 0;
+  background: url("./images/c-img.png");
+  object-fit: cover;
+}

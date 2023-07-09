@@ -1,0 +1,15 @@
+mixin auctionItem(image, time, title, price, step)
+    .auction-item
+        .auction-image
+            .auction-overlay
+            img(src= image, alt="book").auction-img
+            a.auction-label(href="#" ) Must See
+        .auction-content
+            span.auction-time= time
+            h3.auction-title= title
+            .auction-price
+                img(src="/images/star.png", alt="star")
+                span= price
+            .auction-step
+                img(src="/images/bua1.svg", alt="star").step-img
+                span= step

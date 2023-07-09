@@ -1,0 +1,45 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css', integrity='sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==', crossorigin='anonymous', referrerpolicy='no-referrer')
+  link(rel='preconnect', href='https://fonts.googleapis.com')
+  link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Dancing+Script&family=Geologica&family=Kaushan+Script&family=Lobster&family=Marck+Script&family=Merienda&family=Patrick+Hand&family=Patrick+Hand+SC&family=Playball&family=Roboto&family=Roboto+Condensed&display=swap', rel='stylesheet')
+  link(rel='stylesheet', href='header.css')
+  link(rel='stylesheet', href='contact.css')
+  title Contact 
+  body
+    include ./header
+    section.contact 
+        .contact-top
+            .top-img
+            .top-title Contact Us
+        .contact-center 
+            .center-back
+            .center-answer
+              .center-title You`ve got questions and we`ve got answers! 
+            .center-info
+              form(action="" method="method" autocomplete).center-name 
+                input(type ="name" placeholder="Full name").subscribe-name
+              form(action="" method="method" autocomplete).center-phone 
+                input(type ="phone" placeholder="Phone Number").subscribe-phone
+            form(action="" method="method" autocomplete).center-email 
+                input(type ="email" placeholder="Email Address").subscribe-email
+            form(action="" method="method" autocomplete).center-mes 
+                input(type ="text" placeholder="Your Message").subscribe-mes
+            a.submit-button(href="./submit.html" type="submit")
+              .button-title Submit
+            .center-visit 
+              .visit-us 
+                .visit-title Come visit us! 
+              .visit-add 
+                .add-logo
+                .add-content FPTU: Lô E2a-7, Đường D1, Đ. D1, Long Thạnh Mỹ, TP Thủ Đức, TP HCM
+              .visit-phone 
+                .phone-logo
+                .phone-content 090 813 13 08
+              .visit-email
+                .email-logo
+                .email-content youngthsmile@gmail.com

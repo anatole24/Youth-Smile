@@ -1,0 +1,47 @@
+:root {
+  --primary-color: #c08d18bb;
+}
+body {
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+  outline: none;
+  font: inherit;
+  background-color: transparent;
+  border: none;
+}
+
+.header {
+  background-color: white;
+  padding: 16px 0;
+  box-shadow: 0px 6px 30px 0px rgba(15, 15, 15, 0.06);
+  margin-bottom: 70px;
+}
+.header_container {
+  margin: 0 auto;
+}
+.header_list {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.header_item {
+  padding: 14px 22px;
+  border-radius: 10px;
+  background-color: #f4f5f9;
+  display: block;
+  transition: background-color 0.2s linear, color 0.25s ease-in;
+}
+.header_item:hover {
+  background-color: #c08d18bb;
+  color: white;
+}

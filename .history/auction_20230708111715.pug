@@ -1,0 +1,24 @@
+include ./mixins
+
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css', integrity='sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==', crossorigin='anonymous', referrerpolicy='no-referrer')
+  link(rel='preconnect', href='https://fonts.googleapis.com')
+  link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Dancing+Script&family=Geologica&family=Kaushan+Script&family=Lobster&family=Marck+Script&family=Merienda&family=Patrick+Hand&family=Patrick+Hand+SC&family=Playball&family=Roboto&family=Roboto+Condensed&display=swap', rel='stylesheet')
+  link(rel='stylesheet', href='header.css')
+  link(rel='stylesheet', href='auction.css')
+  title Auction
+  body
+    include ./header
+    section.auction 
+    .container
+        h2.heading Những tựa sách đang được đấu giá
+            .auction-list
+                +auctionItem("./images/b-demen.jpg", "Saturday, July 1, 2023 at 12:31 AM","Dế Mèn phiêu lưu kí", "35.000VND", "5.000VND")
+                +auctionItem("./images/b-ngk.jpg", "Saturday, July 1, 2023 at 12:31 AM","Dế Mèn phiêu lưu kí", "35.000VND", "5.000VND")
+                +auctionItem("./images/b-demen.jpg", "Saturday, July 1, 2023 at 12:31 AM","Dế Mèn phiêu lưu kí", "35.000VND", "5.000VND")
+                +auctionItem("./images/b-demen.jpg", "Saturday, July 1, 2023 at 12:31 AM","Dế Mèn phiêu lưu kí", "35.000VND", "5.000VND")
